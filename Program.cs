@@ -27,7 +27,7 @@ namespace ComputationalThinkingExercises
 
                 string userChoice = Console.ReadLine().ToLower();
 
-                switch(userChoice)
+                switch (userChoice)
                 {
                     case "1":
                         AreTheseIntegersEqual();
@@ -120,7 +120,7 @@ namespace ComputationalThinkingExercises
                 Console.WriteLine("This number is even.");
             }
 
-            else 
+            else
             {
                 Console.WriteLine("This number is odd.");
             }
@@ -144,7 +144,11 @@ namespace ComputationalThinkingExercises
 
             switch (favoriteLetter.ToLower())
             {
-                case "a": case "e": case "i": case "o": case "u":
+                case "a":
+                case "e":
+                case "i":
+                case "o":
+                case "u":
                     Console.WriteLine("This letter is a vowel.");
                     break;
                 default:
@@ -196,7 +200,7 @@ namespace ComputationalThinkingExercises
             Console.WriteLine("Now for my next magical trick... Pick another number!");
             int divisibleNumber = Convert.ToInt32(Console.ReadLine());
 
-            if ( divisibleNumber % 3 ==0)
+            if (divisibleNumber % 3 == 0)
                 Console.WriteLine($"{divisibleNumber} is divisible by 3.");
 
             else
@@ -243,7 +247,7 @@ namespace ComputationalThinkingExercises
 
             if (totalBill >= 50)
                 Console.WriteLine($"\nSince your table's total bill is over $50, you receive a 10% discount!  Your new total is {totalBill - (totalBill * .1):C}.");
-            
+
             else
                 Console.WriteLine($"\nYou will receive a 5% discount. Your new total is {totalBill - (totalBill * .05):C}.");
 
@@ -266,7 +270,7 @@ namespace ComputationalThinkingExercises
             // From 23 to 65: 'Working for the Man'
             // From 66 to 100: 'The Golden Years'
             // If the age of the person is less than 0 or more than 100 - it might be an alien
-                    // print: "This program is for humans".
+            // print: "This program is for humans".
 
             Console.Clear();
             Console.WriteLine("AGE CATEGORY\n");
