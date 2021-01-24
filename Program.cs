@@ -64,7 +64,7 @@ namespace ComputationalThinkingExercises
                         break;
                     case "q":
                         keepThinking = false;
-                        Console.WriteLine("Good bye!");
+                        Console.WriteLine("Good bye, dude!");
                         break;
                     default:
                         break;
@@ -84,9 +84,9 @@ namespace ComputationalThinkingExercises
 
             // Enter your solution here
 
-            Console.WriteLine("Pick any 2 numbers.  Enter your 1st number now.");
+            Console.WriteLine("How old are you?");
             int userNumber1 = Convert.ToInt32(Console.ReadLine());
-            Console.WriteLine("Enter your 2nd number now.");
+            Console.WriteLine("What is your favorite number?");
             int userNumber2 = Convert.ToInt32(Console.ReadLine());
 
             if (userNumber1 == userNumber2)
@@ -170,7 +170,7 @@ namespace ComputationalThinkingExercises
 
             // Enter your solution here
 
-            Console.WriteLine("Think of 2 numbers and I'll tell you a fun fact about them.  What is the first number that comes to mind?");
+            Console.WriteLine("Think of 2 different numbers and I'll tell you a fun fact about them.  What is the first number that comes to mind?");
             int bigNumber1 = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Now tell me your second number.");
             int bigNumber2 = Convert.ToInt32(Console.ReadLine());
@@ -234,7 +234,7 @@ namespace ComputationalThinkingExercises
 
             Console.WriteLine($"Mike and his three friends ate at a restaurant and divided the bill evenly.  Each person paid {restaurantBill:C}.  Their total bill was {totalBill:C}.");
 
-            Console.WriteLine("\nLets see how much money you and your friends would pay.  Including yourself, how many friends are you dining with?");
+            Console.WriteLine("\nLets see how much money you and your friends would pay.  How many people are in your party?");
             numberOfPeople = Convert.ToInt32(Console.ReadLine());
 
             Console.WriteLine("How much money did you pay for your meal?");
@@ -322,7 +322,7 @@ namespace ComputationalThinkingExercises
 
             // Enter your solution here
 
-            Console.WriteLine("Pick a number from zero to ten.  Spell out the word, DON'T write the number");
+            Console.WriteLine("Pick a number from zero to ten.  SPELL out the word, DON'T write the number.");
             string numberWord = Console.ReadLine();
 
             switch (numberWord.ToLower())
